@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "concurrently \"next dev\" \"pnpm make-agent dev\"",
     "dev:agent": "next dev",
-    "prepare": "make-agent build",
     "build": "next build",
     "build:deploy": "next build && pnpm make-agent deploy -u https://agent-next-boilerplate.vercel.app",
     "start": "next start",
